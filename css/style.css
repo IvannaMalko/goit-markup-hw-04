@@ -164,6 +164,9 @@ padding-right: 15px;
         margin-right: 10px;
         fill: currentColor;
 }
+.link:hover, .link:focus{
+        color: var(--accent-color);
+}
 
 
 
@@ -172,6 +175,7 @@ padding-right: 15px;
 .hero{
         background-color: var(--hero-footer-bg-color);
         text-align: center;
+
         padding-top: 200px;
         padding-bottom: 200px;
         margin-right: auto;
@@ -426,9 +430,8 @@ padding-right: 15px;
         margin-bottom: 50px;
 }
 
-.customers-icon{
-        fill: var(--team-icon);
-}
+
+
 
 .customers-link{
         width: 170px;
@@ -440,17 +443,21 @@ padding-right: 15px;
 
         border: 1px solid #AFB1B8;
         border-radius: 4px;
+        color: #AFB1B8;
         
+}
+.customers-icon {
+        fill: currentColor
+
 }
 .customers-link:hover, .customers-link:focus{
         color: var(--accent-color);
-        border-color: var(--accent-color)
+        border: 1px solid var(--accent-color);
+        
 
 }
-.customers-icon:hover, .customers-icon:focus{
-        fill: var(--accent-color);
-}
-.customer-list{
+
+.customers-list{
         display: flex;
         justify-content: center;
         gap: 30px;
